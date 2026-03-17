@@ -1,0 +1,14 @@
+{
+  "name": "@terrazzo/demo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "terrazzo build",
+    "dev": "terrazzo dev"
+  },
+  "devDependencies": {
+    "@terrazzo/cli": "workspace:^",
+    "@terrazzo/plugin-css": "workspace:^"
+  }
+}

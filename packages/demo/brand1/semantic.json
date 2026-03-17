@@ -1,0 +1,42 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "jack": {
+    "color": {
+      "$extends": "{contract.jack.color}",
+      "canvas": {
+        "$value": "{color.pink.800}"
+      },
+      "surface": {
+        "$root": {
+          "$value": "{color.pink.500}"
+        },
+        "subtle": {
+          "$value": "{color.pink.500}"
+        }
+      },
+      "text": {
+        "$root": {
+          "$value": "{color.pink.100}"
+        },
+        "subtle": {
+          "$value": "{color.pink.100}"
+        }
+      },
+      "brand": {
+        "primary": {
+          "$value": "{color.pink.500}"
+        },
+        "secondary": {
+          "$value": "{color.pink.100}"
+        }
+      },
+      "on": {
+        "surface": {
+          "strong": {
+            "$value": "{color.pink.100}"
+          }
+        }
+      }
+    }
+  }
+}

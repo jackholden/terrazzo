@@ -1,0 +1,25 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "color": {
+    "gray": {
+      "100": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [0.98, 0.98, 0.98],
+          "hex": "#fafafa"
+        },
+        "$description": "Brand 2 light gray background"
+      },
+      "800": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [0.11, 0.11, 0.11],
+          "hex": "#1c1c1c"
+        },
+        "$description": "Brand 2 dark gray text"
+      }
+    }
+  }
+}

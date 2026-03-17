@@ -1,0 +1,43 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "color": {
+    "pink": {
+      "100": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [1, 0.75, 0.8],
+          "hex": "#ffc2cc"
+        },
+        "$description": "Brand 1 light pink 100"
+      },
+      "500": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [1, 0.5, 0.6],
+          "hex": "#ff8099"
+        },
+        "$description": "Brand 1 pink 500"
+      },
+      "700": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [1, 0.25, 0.4],
+          "hex": "#ff4066"
+        },
+        "$description": "Brand 1 pink 700"
+      },
+      "800": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [0.8, 0.0, 0.2],
+          "hex": "#cc0033"
+        },
+        "$description": "Brand 1 pink 800"
+      }
+    }
+  }
+}

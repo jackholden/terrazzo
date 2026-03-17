@@ -1,0 +1,52 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "contract": {
+    "jack": {
+      "color": {
+        "$type": "color",
+        "canvas": {
+          "$value": "{color.gray.100}",
+          "$description": "Canvas background color"
+        },
+        "surface": {
+          "$root": {
+            "$value": "{color.gray.100}",
+            "$description": "Primary surface background color"
+          },
+          "subtle": {
+            "$value": "{color.gray.100}",
+            "$description": "Subtle surface background"
+          }
+        },
+        "text": {
+          "$root": {
+            "$value": "{color.gray.800}",
+            "$description": "Primary text color"
+          },
+          "subtle": {
+            "$value": "{color.gray.800}",
+            "$description": "Subtle text color"
+          }
+        },
+        "brand": {
+          "primary": {
+            "$value": "{color.gray.100}",
+            "$description": "Primary brand color"
+          },
+          "secondary": {
+            "$value": "{color.gray.800}",
+            "$description": "Secondary brand color"
+          }
+        },
+        "on": {
+          "surface": {
+            "strong": {
+              "$value": "{color.gray.800}",
+              "$description": "Text on surface background"
+            }
+          }
+        }
+      }
+    }
+  }
+}

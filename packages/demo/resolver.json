@@ -1,0 +1,39 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+  "name": "A Design System",
+  "version": "2025.10",
+  "resolutionOrder": [
+    { "$ref": "#/sets/foundation" },
+    { "$ref": "#/sets/semantic" },
+    { "$ref": "#/modifiers/brand" },
+    { "$ref": "#/modifiers/theme" }
+  ],
+  "sets": {
+    "foundation": {
+      "sources": [
+        { "$ref": "primitives.json" }
+      ]
+    },
+    "semantic": {
+      "sources": [
+        { "$ref": "semantic-contract.json" }
+      ]
+    }
+  },
+  "modifiers": {
+    "brand": {
+      "contexts": {
+        "brand1": [{ "$ref": "brand1/primitives.json" }, { "$ref": "brand1/semantic.json" }],
+        "brand2": [{ "$ref": "brand2/primitives.json" }, { "$ref": "brand2/semantic.json" }]
+      }
+    },
+    "theme": {
+      "default": "light",
+      "contexts": {
+        "light": [],
+        "brand1-dark": [{ "$ref": "brand1/dark.json" }],
+        "brand2-christmas": [{ "$ref": "brand2/christmas.json" }]
+      }
+    }
+  }
+}
