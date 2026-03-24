@@ -1,0 +1,21 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "semantic": {
+    "color": {
+      "$extends": "{contract.color}",
+      "text": {
+        "$root": {
+          "$value": "{brand2.color.blue}"
+        }
+      }
+    },
+    "border": {
+      "$extends": "{contract.border}",
+      "focus": {
+        "$value": {
+          "color": "{brand2.color.blue}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "contract": {
+    "color": {
+      "$type": "color",
+      "text": {
+        "$root": {
+          "$value": "{primitive.color.red.500}",
+          "$description": "The primary text color"
+        },
+        "heading": {
+          "$value": "{primitive.color.red.900}",
+          "$description": "The heading text color"
+        }
+      }
+    },
+    "font": {
+      "$type": "fontFamily",
+      "sans": {
+        "$value": ["Inter", "system-ui", "sans-serif"],
+        "$description": "The sans-serif font family"
+      }
+    },
+    "typography": {
+      "$type": "typography",
+      "body": {
+        "$description": "Default body text style",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": { "value": 1, "unit": "rem" },
+          "fontWeight": 400,
+          "letterSpacing": { "value": 0, "unit": "rem" },
+          "lineHeight": 1.5
+        }
+      }
+    },
+    "border": {
+      "$type": "border",
+      "focus": {
+        "$description": "Focus border style",
+        "$value": {
+          "color": "{primitive.color.red.500}",
+          "width": { "value": 2, "unit": "px" },
+          "style": "double"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "font": {
+    "family": {
+      "$description": "An example foundation set, doesn't do anything",
+      "sans": {
+        "$type": "fontFamily",
+        "$value": ["Inter", "system-ui", "sans-serif"]
+      },
+      "serif": {
+        "$type": "fontFamily",
+        "$value": ["Georgia", "serif"]
+      }
+    }
+  }
+}

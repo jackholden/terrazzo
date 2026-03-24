@@ -1,0 +1,35 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "semantic": {
+    "color": {
+      "$extends": "{contract.color}",
+      "text": {
+        "$root": {
+          "$value": "{brand1.color.green}"
+        }
+      }
+    },
+    "font": {
+      "$extends": "{contract.font}",
+      "sans": {
+        "$value": ["Arial", "system-ui", "sans-serif"]
+      }
+    },
+    "typography": {
+      "$extends": "{contract.typography}",
+      "body": {
+        "$value": {
+          "fontFamily": "{brand1.font.sans}"
+        }
+      }
+    },
+    "border": {
+      "$extends": "{contract.border}",
+      "focus": {
+        "$value": {
+          "color": "{brand1.color.green}"
+        }
+      }
+    }
+  }
+}

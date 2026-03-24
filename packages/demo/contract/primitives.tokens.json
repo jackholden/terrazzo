@@ -1,0 +1,19 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "primitive": {
+    "color": {
+      "$type": "color",
+      "red": {
+        "100": {
+          "$value": { "colorSpace": "oklch", "components": [1, 0, 0], "alpha": 1, "hex": "#ff0000" }
+        },
+        "500": {
+          "$value": { "colorSpace": "oklch", "components": [0.513, 0.185, 18], "alpha": 1, "hex": "#b9213c" }
+        },
+        "900": {
+          "$value": { "colorSpace": "oklch", "components": [0.5393, 0.185, 18], "alpha": 1, "hex": "#c22c44" }
+        }
+      }
+    }
+  }
+}

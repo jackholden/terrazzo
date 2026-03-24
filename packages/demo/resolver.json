@@ -1,0 +1,38 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+  "name": "A multi-brand, multi-theme Design System",
+  "version": "2025.10",
+  "sets": {
+    "foundation": {
+      "sources": [
+        { "$ref": "foundation/typography.tokens.json" }
+      ]
+    },
+    "contract": {
+      "sources": [
+        { "$ref": "contract/primitives.tokens.json" },
+        { "$ref": "contract/semantic.tokens.json" }
+      ]
+    },
+    "primitive": {
+      "sources": [
+        { "$ref": "brands/brand1/primitives.tokens.json" },
+        { "$ref": "brands/brand2/primitives.tokens.json" }
+      ]
+    }
+  },
+  "modifiers": {
+    "brand": {
+      "contexts": {
+        "brand1": [{ "$ref": "brands/brand1/semantic.tokens.json" }],
+        "brand2": [{ "$ref": "brands/brand2/semantic.tokens.json" }]
+      }
+    }
+  },
+  "resolutionOrder": [
+    { "$ref": "#/sets/foundation" },
+    { "$ref": "#/sets/primitive" },
+    { "$ref": "#/sets/contract" },
+    { "$ref": "#/modifiers/brand" }
+  ]
+}
